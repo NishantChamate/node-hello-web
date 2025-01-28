@@ -12,7 +12,7 @@ const students = [
 // Root path for information about different API paths
 app.get("/", (req, res) => {
   const apiPaths = {
-    "/students": "Get all students",
+    "/students": "Get alllllllll students",
     "/students/:id": "Get a specific student by ID",
   };
   res.json(apiPaths);
